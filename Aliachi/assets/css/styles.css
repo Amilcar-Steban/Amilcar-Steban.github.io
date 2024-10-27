@@ -1,0 +1,117 @@
+/* Estilos generales */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 2em;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header .logo-img {
+    height: 50px; /* Ajusta la altura de la imagen según tu preferencia */
+    width: auto;  /* Mantiene la proporción de la imagen */
+    margin-right: 20px; /* Espacio entre el logo y la lista de navegación */
+    filter: drop-shadow(1px 1px 10px #ff9b37);
+    border-radius: 50px;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 1em;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+.hero {
+    background: url('../images/hero.jpg') center/cover no-repeat;
+    color: #fff;
+    padding: 6em 0;
+    text-align: center;
+    height: 670px;
+}
+
+.hero h1 {
+    font-size: 3em;
+}
+
+.hero .btn {
+    background-color: #caa24a;
+    color: #fff;
+    padding: 0.75em 1.5em;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.gallery {
+    padding: 3em 0;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.gallery-grid {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); /* Ajusta el tamaño mínimo de las columnas */
+    gap: 1em; /* Espacio entre imágenes */
+    margin: 0 auto; /* Centra el grid */
+    max-width: 1200px; /* Limita el ancho máximo de la galería para centrado */
+    padding: 0 1em; /* Añade un pequeño padding horizontal para mejorar la alineación */
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho */
+}
+
+.gallery-grid img {
+    width: 350px;
+    height: 350px; /* Ajusta la altura según tus necesidades */
+    object-fit: cover; /* Hace que las imágenes llenen el espacio sin deformarse */
+    border-radius: 8px; /* Bordes redondeados para las imágenes, opcional */
+}
+
+
+.menu-item, .contact form {
+    max-width: 600px;
+    margin: 2em auto;
+    padding: 1em;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #333;
+    color: #fff;
+}
+
+.logo-img2 {
+    height: auto; /* Ajusta la altura de la imagen según tu preferencia */
+    width: 40%;  /* Mantiene la proporción de la imagen */
+    margin-right: 20px; /* Espacio entre el logo y la lista de navegación */
+    filter: drop-shadow(1px 1px 1px #ffffff);
+    
+}
+
+.logo-img2:hover {
+    height: auto; /* Ajusta la altura de la imagen según tu preferencia */
+    width: 40%;  /* Mantiene la proporción de la imagen */
+    margin-right: 20px; /* Espacio entre el logo y la lista de navegación */
+    filter: drop-shadow(1px 1px 1px #ff9b37);
+}
