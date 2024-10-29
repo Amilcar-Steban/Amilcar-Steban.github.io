@@ -40,12 +40,18 @@ header nav ul li a {
     color: #333;
     font-weight: bold;
 }
+
 .hero {
-    background: url('../images/hero.jpg') center/cover no-repeat;
+    background: url('../images/zonaGeneral.jpg') center/cover no-repeat;
     color: #fff;
     padding: 6em 0;
     text-align: center;
     height: 670px;
+}
+
+.hero  .hero-label {
+    margin-bottom: 50px; /* Espacio entre el texto y el botón */
+    margin-top: 50px;
 }
 
 .hero h1 {
@@ -53,11 +59,13 @@ header nav ul li a {
 }
 
 .hero .btn {
-    background-color: #caa24a;
+    background-color: #faab00;
     color: #fff;
     padding: 0.75em 1.5em;
     text-decoration: none;
     border-radius: 5px;
+    margin-top: 10px;
+    filter: drop-shadow(1px 1px 10px #ffffff); 
 }
 
 .gallery {
@@ -102,16 +110,13 @@ footer {
 }
 
 .logo-img2 {
-    height: auto; /* Ajusta la altura de la imagen según tu preferencia */
-    width: 40%;  /* Mantiene la proporción de la imagen */
-    margin-right: 20px; /* Espacio entre el logo y la lista de navegación */
-    filter: drop-shadow(1px 1px 1px #ffffff);
-    
+    height: auto; 
+    width: 30%;  
+    margin-right: 20px; 
+    filter: drop-shadow(1px 1px 10px #ffffff); /* Este es el efecto de contorno */
 }
 
+
 .logo-img2:hover {
-    height: auto; /* Ajusta la altura de la imagen según tu preferencia */
-    width: 40%;  /* Mantiene la proporción de la imagen */
-    margin-right: 20px; /* Espacio entre el logo y la lista de navegación */
-    filter: drop-shadow(1px 1px 1px #ff9b37);
+    filter: drop-shadow(1px 1px 5px #000000);
 }
